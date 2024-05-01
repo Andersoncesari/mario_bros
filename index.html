@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Protest+Riot&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+    <link rel="shortcut icon" href="./imagens/icon.png" type="image/x-icon">
+    <title>Super Mario Bros</title>
+</head>
+
+<body>
+    <div onclick="esconderform()" class="mascara-formulario"></div>
+    <div class="header">
+        <img src="./imagens/icon.png" alt="">
+        <a href="#">Inicio</a>
+        <a href="#">Nossos Serviços</a>
+        <a href="#">Fale Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+
+    <div class="caixa-maior">
+        <img class="logo" src="./imagens/logo.png" alt="logo do mario bros">
+
+        <div class="paragrafo">
+            <p> <b>Mario</b> é retratado como um encanador italiano baixinho rechonchudo e bigodudo vindo do Brooklyn que reside no Reino dos Cogumelos. Ele repetidamente tem a missão de resgatar a Princesa Peach do vilão Bowser, e impedir seus diversos planos de destruir e dominar o reino.</p>
+            <br>
+            
+            <p>Após o grande sucesso do primeiro jogo, a história do personagem mais famoso da Nintendo foi desenvolvida, o que levou à criação de seu irmão, Luigi. A narrativa se tornou mais elaborada, com objetivos e vilões bem definidos e poderes para os personagens do jogo.</p>
+        </div>
+
+        <button onclick="botaoclicado()" class="botao-orçamento">Clique para Orçamentos</button>
+    </div>
+
+    <div>
+        <img class="logo-mario-luigi" src="./imagens/mario.png" alt="logo mario e luigi">
+    </div>
+
+    </div>
+
+
+    <div class="caixa-video">
+        <video src="./video/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+
+    <a href="#">
+        <img class="link-whatss" src="./imagens/whatsapp.png" alt="">
+    </a>
+
+    <form class="formulario" 
+    action="https://formcarry.com/s/DCiOW_SKuHl"
+    method="POST"
+    enctype="multipart/form-data">
+        <input type="text" placeholder="Digite seu Nome" type="text" name="nome">
+        <input type="tel" placeholder="Digite seu Telefone" type="tel" name="telefone">
+        <textarea placeholder="Digite seu Problema" name="duvida"></textarea>
+        <button type="submit" class="botao-formulario">Enviar</button>
+    </form>
+
+    
+</body>
+<script src="./scrypt.js"></script>
+
+</html>
